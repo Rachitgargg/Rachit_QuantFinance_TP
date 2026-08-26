@@ -15,7 +15,7 @@ Values used - I used the closing price of the crossover-confirmation day as the 
 | Largest Winner |    N/A |
 | Largest Loser  | −5.39% |
 
-RELIANCE | 2 Trades | 0% Win Rate
+RELIANCE | 2 | 0% | Would not trade based on this test alone
 
 Based on this test, I would not feel comfortable trading this strategy with my own money yet. The strategy made only two completed trades during the 12-month period, and both ended in losses. The first trade lost around 0.50%, while the second lost about 5.39%, giving the strategy a 0% win rate.
 At the same time, I think it is too early to say that the strategy completely does not work. Two trades is a very small sample size, so the results may not represent how the strategy would perform over a longer period. I would want to test it on more stocks and over a longer time before making a final decision.
