@@ -1,4 +1,4 @@
-# FINOVA Quant & Trading Committee — 20/50 EMA Crossover Backtestx  
+# FINOVA Quant & Trading Committee — 20/50 EMA Crossover Backtest
 Instrument- Reliance Industries Ltd (NSE: RELIANCE)
 
 Period-26 August 2025 – 26 August 2026
