@@ -22,3 +22,14 @@ At the same time, I think it is too early to say that the strategy completely do
 
 One weakness I noticed is that the EMA crossover is a lagging signal. This means the strategy can enter after a price move has already started and may also exit late, giving back some gains. It may struggle when the market is moving/changing direction quickly.
 Overall, the results are not very encouraging, but I would need more testing before deciding whether the strategy has a real advantage.
+
+#BONUS
+
+The strategy behaved differently across the two stocks. On TCS, the strategy generated 4 trades with 1 winner and 3 losers, giving a 25% win rate. The largest winning trade returned 2.93%, while the largest losing trade lost 2.22%. On HDFC Bank, the strategy generated 5 trades and all 5 were losing trades, resulting in a 0% win rate. The largest loss was 6.30%, which was significantly larger than any loss recorded on TCS.
+This suggests that the strategy was not very robust across different stocks. TCS produced at least one profitable trend, while HDFC Bank produced several short-lived signals that resulted in small losses and one much larger loss. One possible reason is that EMA-based strategies work better when a stock is moving in a sustained direction, but can generate repeated false signals when the price is moving sideways or changing direction frequently. The difference between the two stocks shows that a strategy should not be judged from its performance on just one instrument.
+
+#Verdict
+
+TCS | 4 Trades | 25% Win Rate | Weak, but showed some potential
+I would not trade this strategy with my own money in its current form. The results were weak, with only one winning trade out of four. However, the strategy did manage to capture one profitable move, returning 2.93%, and the losses were relatively contained compared with the winning trade. The main weakness is that the strategy can enter trades during short-term movements that do not develop into sustained trends.
+The comparison with HDFC Bank makes me less confident in the strategy. HDFC Bank produced five trades with a 0% win rate, including a 6.30% loss. This suggests that the strategy is highly dependent on the behaviour of the individual stock and may work better during strong trending periods than during sideways or volatile markets. Before risking real money, I would test the strategy over a much longer period and across more stocks, and I would consider adding a filter to avoid taking signals when the market is moving sideways.
